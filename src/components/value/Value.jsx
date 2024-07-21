@@ -37,7 +37,7 @@ const Value = () => {
                             const [className , setClassName] =useState (null)
                             return(
                               <AccordionItem className={`accordionItem ${className}`} key={i} uuid={i}>
-                     <AccordionItemHeading>
+                      <AccordionItemHeading>
                       <AccordionItemButton className='flexCenter AccordionItemButton'>
                         <div className="flexCenter icon">{item.icon} </div>
                         <span className="primaryText">{item.heading}</span>
@@ -50,7 +50,7 @@ const Value = () => {
                       </AccordionItemState>
                      </AccordionItemHeading>
                      <AccordionItemPanel>
-                      <p className="secondaryText">{item.detail}</p>
+                      <p className="p secondaryText">{item.detail}</p>
                      </AccordionItemPanel>
                               </AccordionItem>
                             )
